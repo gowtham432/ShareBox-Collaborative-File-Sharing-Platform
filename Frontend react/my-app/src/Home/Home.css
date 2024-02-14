@@ -1,0 +1,32 @@
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .home-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .login-button:hover, .registration-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-button:active, .registration-button:active {
+    background-color: #004080;
+  }
+  
